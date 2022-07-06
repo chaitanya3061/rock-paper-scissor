@@ -109,8 +109,9 @@ function checking(){
     let a=result1();
     choice1.innerHTML=a;
     choices_h5.innerHTML="Game Over, Press Any Key to Restart";
-    // document.getElementById('score').id = 'score2';
-    // document.getElementsByClassName("score2").innerHTML=user+":"+comp;
+    document.getElementById("r").classList.add("class");
+    document.getElementById("p").classList.add("class");
+    document.getElementById("s").classList.add("class");
     document.addEventListener("click",()=>
     {
            document.getElementById("moves").classList.add("dis");
